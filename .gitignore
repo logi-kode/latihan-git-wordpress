@@ -1,0 +1,29 @@
+# Upload & cache (besar dan bukan kode)
+uploads/
+cache/
+upgrade/
+backup*/
+ai1wm-backups/
+updraft/
+
+# Log & file sementara
+*.log
+debug.log
+*.sql
+*.zip
+
+# Plugin pihak ketiga (di-install ulang, bukan dilacak)
+plugins/*
+!plugins/index.php
+# Jika ada plugin custom buatan sendiri, kecualikan dengan:
+# !plugins/nama-plugin-custom/
+
+# Tema bawaan WordPress
+themes/twenty*
+# Parent theme pihak ketiga: abaikan, lacak hanya child theme
+# themes/hello-elementor/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
